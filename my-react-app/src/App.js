@@ -1,21 +1,14 @@
+// Import necessary libraries
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import Introduction from './Introduction';
-import Footer from './Footer';
-import './App.css';
 
-const App = () => {
+// App component
+function App() {
   return (
-    <Router>
-      <div>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/about" component={Introduction} />
-        {/* Add more routes for portfolio, etc. */}
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      {/* Other components or content */}
+      <h1>Hola</h1>
+    </div>
   );
-};
+}
 
 export default App;
