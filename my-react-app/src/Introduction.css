@@ -1,0 +1,19 @@
+.introduction-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .introduction-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .text-box {
+    flex: 1;
+  }
+  
+  .text-box p {
+    font-size: 1.2rem;
+  }
+  
