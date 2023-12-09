@@ -12,19 +12,21 @@ function HomePage() {
   return (
     <div className="parallax-container">
       <div className="parallax-1">
-      <Parallax
-        className="parallax-layer-1"
-        translateX={["0%", "-100%"]}
-        easing="easeIn"
-        startScroll={1}
-        endScroll={300}
-      >
-        <img src={planet1} alt="Planet" />
-      </Parallax>
+        <Parallax
+          className="parallax-layer-1"
+          translateY={["0%", "100%"]}
+          easing="easeIn"
+          startScroll={1}
+          endScroll={300}
+        >
+          <img src={planet1} alt="Planet" />
+        </Parallax>
       </div>
-      <Parallax className="parallax-layer-2">
-        <h1>Hola mundo</h1>
-      </Parallax>
+      <div className="parallax-2">
+        <Parallax className="parallax-layer-2">
+          <h1>Hola mundo</h1>
+        </Parallax>
+      </div>
     </div>
   );
 }
