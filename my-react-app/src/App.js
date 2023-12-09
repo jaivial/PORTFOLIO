@@ -1,15 +1,15 @@
 // Import necessary libraries
 import React from 'react';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import HomePage from './components/HomePage';
 
 // App component
 function App() {
   return (
-    <div className="App">
-      {/* Other components or content */}
+    <ParallaxProvider>
       <HomePage />
-    </div>
+    </ParallaxProvider>
   );
 }
 
