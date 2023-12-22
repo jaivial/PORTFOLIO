@@ -1,0 +1,48 @@
+.wrapper  {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  place-items: center;
+  background-color: black;
+}
+
+.title {
+  font: bold;
+  color: white;
+  font-size: 5rem;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  margin-bottom: 275px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 6rem; 
+  }
+}
+
+.image1, .image2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+.image1 {
+  background-image: url(../images/montanya_completa.jpg);
+  background-position: bottom;
+  background-size: cover;
+  z-index: 0;
+}
+
+.image2 {
+  background-image: url(../images/edit2.png);
+  background-position: bottom;
+  background-size: cover;
+  z-index: 20;
+}
